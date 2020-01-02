@@ -1,0 +1,20 @@
+[
+  { "value": "顺丰速运", "shipNum": "SF" },
+  { "value": "百世快递", "shipNum": "HTKY" },
+  { "value": "中通快递", "shipNum": "ZTO" },
+  { "value": "申通快递", "shipNum": "STO" },
+  { "value": "圆通快递", "shipNum": "YTO" },
+  { "value": "韵达速递", "shipNum": "YD" },
+  { "value": "邮政快递包裹", "shipNum": "YZPY" },
+  { "value": "EMS", "shipNum": "EMS" },
+  { "value": "天天快递", "shipNum": "HHTT" },
+  { "value": "京东快递", "shipNum": "YD" },
+  { "value": "优速快递", "shipNum": "UC" },
+  { "value": "德邦快递", "shipNum": "DBL" },
+  { "value": "宅急送", "shipNum": "ZJS" },
+  { "value": "TNT快递", "shipNum": "TNT" },
+  { "value": "UPS", "shipNum": "UPS" },
+  { "value": "DHL", "shipNum": "DHL" },
+  { "value": "FEDEX联邦(国内件)", "shipNum": "FEDEX" },
+  { "value": "FEDEX联邦(国际件)", "shipNum": "FEDEX_GJ" }
+]
