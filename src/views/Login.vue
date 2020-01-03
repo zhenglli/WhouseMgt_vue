@@ -149,11 +149,10 @@
     /* position: absolute; */
     width: 380px;
     height: 300px;
-    margin:200px auto;
+    margin:160px auto 80px;
     color: #fff;
     text-align: center;
-
-    }
+  }
   .el-form-item{
     margin-bottom: 30px;
   }  
@@ -166,7 +165,7 @@
   .el-button{
     width: 100%;
     height: 40px;
-    font-size: 18px;
+    font-size: 20px;
   }
   .mt-head{
     float: right;
