@@ -2,7 +2,8 @@
 <!-- 背景图片 -->
 	<div class="home" :style="{height:cHeight}"><table></table>
 		<div id="h1" style="text-align:right">
-			<a id="a1" href="">已有账号？</a>
+			<!-- <a id="a1" href="">已有账号？</a> -->
+			<router-link to="/login" id="a1">已有账号?</router-link>
 			<router-link to="/login" id="a2">登录</router-link>
 		</div> 
 		<div id="black">
@@ -90,7 +91,7 @@ export default{
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
-	#black {margin:170px auto;}
+	#black {margin:90px auto;}
 	.home a {color:#fff;text-decoration:none;font-size:3px;}
 	#a1 { margin-right:15px;font-size:15px;}
 	#a2 {

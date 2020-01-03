@@ -4,7 +4,8 @@
 
       <!-- 右上角模块 -->
       <div class="mt-head">
-        <a id="a1" href="">没有账号?</a>
+        <!-- <a id="a1" href="">没有账号?</a> -->
+        <router-link to="/register" id="a1">没有账号?</router-link>
         <router-link to="/register" class="black" >注册试用</router-link>
       </div>
       <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="0px" class="demo-ruleForm">
