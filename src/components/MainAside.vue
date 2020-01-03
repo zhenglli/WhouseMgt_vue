@@ -2,7 +2,7 @@
   <ul class="aside">
     <li>
       <router-link :to="'/index'">
-        <span class="iconfont">&#xe606;</span>
+        <span class="iconfont">&#xe606;</span>主页
       </router-link>
     </li>
     <li>
