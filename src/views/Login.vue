@@ -15,7 +15,7 @@
       <h1>欢迎登录Whouse</h1>
       <br>
       <br>
-        <el-form-item prop="uname">
+        <el-form-item prop="username">
             <el-input clearable v-model="ruleForm.username" placeholder="请输入账号"></el-input>
         </el-form-item>
         <el-form-item prop="password">
@@ -33,7 +33,7 @@
             <el-button type="primary" @click="submitForm('ruleForm')">登录</el-button>
         </div>
         <br>
-        <div class="more ">
+        <div class="more">
           更多登录方式
         </div>  
         <br>
@@ -67,8 +67,8 @@
       this.getCookie();
     },
     created(){
-        this.cHeight = document.body.clientHeight+'px';
-      },
+      this.cHeight = document.body.clientHeight+'px';
+    },
     methods: {
       submitForm() {
         const self = this;
@@ -112,7 +112,7 @@
         this.setCookie("", "", -1); //修改2值都为空，天数为负1天就好了
       },
       login(){
-        this.axios.post("users/v1/login",{
+        this.axios.post("/users/v1/login",{
           params:{
             uname:this.ruleForm.username,
             upwd:this.ruleForm.password
