@@ -34,7 +34,7 @@
         </tr>
         <tr>
           <td colspan="2" class="phone1">联系电话:
-            <input type="number" class="phonestyle" placeholder="请输入联系方式" v-model="phone">
+            <input type="input" class="phonestyle" placeholder="请输入联系方式" v-model="phone">
           </td>
         </tr>
         <tr>

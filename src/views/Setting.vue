@@ -13,7 +13,7 @@
         <el-tab-pane label="客户管理" name="clients" v-if="token_id==1||token_id==2">
           <setting-client></setting-client>
         </el-tab-pane>
-        <el-tab-pane label="用户管理" name="users" v-if="token_id==1">
+        <el-tab-pane label="员工管理" name="users" v-if="token_id==1">
           <setting-user></setting-user>
         </el-tab-pane>
       </el-tabs>

@@ -176,7 +176,7 @@ export default {
         // 点击保存，首先判断新值和旧值是否相等，即用户是否做出修改。
         // 如果没有做出修改，提示用户，并将isSet置为false,此时是编辑按钮，输入框不可见
         if(this.isEqual(this.newSel,this.sel)){
-          this.$message('没有任何修改操作');
+          this.$message({message:'没有任何修改操作',type:'warning'});
           row.isSet = false;
           return;
         }else{

@@ -136,7 +136,7 @@ export default {
               this.load()
             )
           }else{
-            this.$message('没有任何修改操作');
+            this.$message({message:'没有任何修改操作',type:'warning'});
           }
         } else {
           return false;
